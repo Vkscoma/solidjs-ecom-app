@@ -1,8 +1,10 @@
 export default function Card(props) {
     return (
-        <div>
-            <h2>Card Component</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis amet ullam, voluptates minus esse odit!</p>
+        <div 
+        class=" bg-slate-100 p-4 m-4 text-center rounded-md shadow-md"
+        classList={{}}
+        >
+            {props.children}
         </div>
     )
 }
